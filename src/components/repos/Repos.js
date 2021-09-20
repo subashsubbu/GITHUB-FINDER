@@ -3,14 +3,14 @@ import RepoItem from './RepoItem'
 import PropTypes from 'prop-types'
 
 
-const repos = ({repos}) => {
+const Repos = ({repos}) => {
     return (
         repos.map(repo => 
             <RepoItem repo={repo} key={repo.id}/>)
     )
 }
-repos.propTypes ={
+Repos.propTypes ={
     repos: PropTypes.array.isRequired,
 }
 
-export default repos
+export default Repos

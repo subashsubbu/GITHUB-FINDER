@@ -1,15 +1,16 @@
-import React, {Fragment} from 'react'
-import spinner from './spinner.gif';
-
-
+import React, { Fragment } from "react";
+import spinner from "./spinner.gif";
 
 const Spinner = () => {
-    return (
-        <Fragment>
-            <img src={spinner} alt='loading..' style= {{ width: '10', margin: 'auto', display: 'block'}} />
+  return (
+    <Fragment>
+      <img
+        src={spinner}
+        alt="loading.."
+        style={{ width: "10", margin: "auto", display: "block" }}
+      />
+    </Fragment>
+  );
+};
 
-        </Fragment>
-    )
-}
-
-export default Spinner
+export default Spinner;
